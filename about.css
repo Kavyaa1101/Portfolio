@@ -1,0 +1,144 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(7, 7, 7), rgb(25, 132, 168));
+    /* position: fi;  */
+
+}
+
+/* left */
+.box1,
+.box2 {
+
+    box-shadow: 0px -2px 30px rgba(236, 231, 231, 0.5);
+
+}
+
+.box1 {
+    background-color: rgb(38, 39, 39);
+    color: white;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+
+}
+
+.box1 h3,
+h1,
+h4 {
+    padding-left: 30px;
+
+    line-height: 20px;
+}
+
+.box11 {
+    padding-top: 50px;
+}
+
+.box1 img {
+    width: 180px;
+    height: 220px;
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    border-radius: 10px;
+}
+
+.highlight {
+    color: rgb(79, 201, 242);
+
+}
+
+.box2 {
+    background-color: rgb(84, 82, 82);
+    color: white;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 360px;
+    left: 80px;
+}
+
+.profile {
+    width: 180px;
+    height: 220px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border-radius: 10px;
+}
+
+.box2 h1,
+h3,
+p {
+    padding-left: 250px;
+    padding-right: 35px;
+}
+
+.box2 p {
+    text-align: justify;
+    line-height: 20px;
+}
+
+.box22 {
+    padding-top: 40px;
+}
+
+
+/* right */
+/* right */
+.box3 {
+    background-color: rgb(58, 57, 57);
+    color: white;
+    width: 770px;
+    height: 600px;
+    position: absolute; 
+    top: -300px;
+    left: 620px;
+  }
+  
+  .box31 {
+    display: flex;
+  
+  }
+  
+  table {
+    padding: 10px 0px 0px 10px;
+    width: 300px;
+    height: 185px;
+    display: flex; 
+    border: solid 2px rgb(79, 201, 242);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgb(87, 202, 241) ;
+  }
+  td {
+    padding: 0px 0px 10px 0px;
+    line-height: 19px;
+  }
+  .box3 h2 {
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.box32 img{
+    width: 170px;
+    height: 120px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: solid rgb(89, 207, 247);
+   
+    transition: 1s;
+}
+.box32 img:hover{
+    transform: scale(1);
+    box-shadow: 0px 0px 15px rgb(87, 202, 241) ;
+}
